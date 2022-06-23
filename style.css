@@ -1,0 +1,75 @@
+.container {
+  position: absolute;
+  width: 1440px;
+  height: 740px;
+  left: 0px;
+  top: 0px;
+}
+.back {
+  position: absolute;
+  width: 920.77px;
+  height: 740px;
+  left: 920.77px;
+  top: 740px;
+  background: #e3e3e3;
+  mix-blend-mode: multiply;
+  opacity: 0.18;
+  transform: rotate(-180deg);
+}
+.logo {
+  position: absolute;
+  left: -0.02%;
+  right: 71.58%;
+  top: 0%;
+  bottom: 2.21%;
+  background: #facb21;
+}
+.ven {
+  position: absolute;
+  left: 55.43%;
+  right: 37.65%;
+  top: 0%;
+  bottom: 32.75%;
+  background: #0b0b09;
+}
+.sub_head {
+  position: absolute;
+  height: 24px;
+  left: 0%;
+  right: 69.5%;
+  top: calc(50% - 24px / 2);
+
+  font-family: "BrauerNeue-Regular";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+  text-align: center;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  color: #212546;
+}
+li {
+  list-style: none;
+  padding: 0 20px;
+  text-decoration: none;
+}
+.header {
+  display: flex;
+}
+.max {
+  position: absolute;
+  width: 474px;
+  height: 233px;
+  left: 138px;
+  top: 219px;
+  font-family: "BrauerNeue-Regular";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 75px;
+  line-height: 65px;
+  /* or 87% */
+  text-transform: uppercase;
+  color: #212546;
+}
