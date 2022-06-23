@@ -1,0 +1,18 @@
+.container {
+  position: absolute;
+  width: 1440px;
+  height: 740px;
+  left: 0px;
+  top: 0px;
+}
+.back {
+  position: absolute;
+  width: 920.77px;
+  height: 740px;
+  left: 920.77px;
+  top: 740px;
+  background: #e3e3e3;
+  mix-blend-mode: multiply;
+  opacity: 0.18;
+  transform: rotate(-180deg);
+}
