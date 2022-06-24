@@ -1,0 +1,43 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.both{
+    background-color: yellow;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 42rem;
+}
+.wrapper{
+    background-color: rgb(250, 248, 248);
+    position: absolute;
+    height: 42rem;
+    width: 85%;
+    clip-path: polygon(0% 0%, 0% 0%, 0% 550%, 100% 0%);
+}
+.touch{
+    width: 15%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: auto;
+    padding: 3rem 0 1rem 0;
+}
+.paragraph{
+    text-align: center;
+    width: 95%;
+    font-size: 1.1rem;
+}
+.inputs{
+    margin: 2rem 3rem;
+    padding: .5rem 3rem;
+    text-align: center;
+}
+.inputs input{
+    margin: 1rem;
+    padding: .3rem 18rem .3rem .5rem;
+}
+.wrapper h5{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 21.5rem;
+    color: blue; 
+}
